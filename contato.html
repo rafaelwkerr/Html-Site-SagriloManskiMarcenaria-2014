@@ -1,0 +1,298 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Sagrilo & Manski - Marcenaria e Design</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="resource/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="resource/css/bootstrap-theme.min.css" rel="stylesheet">    
+
+    <link href="resource/css/style.css" rel="stylesheet">
+
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+    <script>
+
+      function initialize() {
+
+        var map_canvas = document.getElementById('map_canvas');
+        var map_options = {
+          center: new google.maps.LatLng(-22.8599307, -42.0511768),
+          zoom: 14,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(map_canvas, map_options)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>    
+
+    <!-- Custom styles for this template 
+    <link href="resource/css/offcanvas.css" rel="stylesheet">
+    -->
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }</style><style id="clearly_highlighting_css" type="text/css">/* selection */ html.clearly_highlighting_enabled ::-moz-selection { background: rgba(246, 238, 150, 0.99); } html.clearly_highlighting_enabled ::selection { background: rgba(246, 238, 150, 0.99); } /* cursor */ html.clearly_highlighting_enabled {    /* cursor and hot-spot position -- requires a default cursor, after the URL one */    cursor: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--cursor.png") 14 16, text; } /* highlight tag */ em.clearly_highlight_element {    font-style: inherit !important; font-weight: inherit !important;    background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow.png");    background-repeat: repeat-x; background-position: top left; background-size: 100% 100%; } /* the delete-buttons are positioned relative to this */ em.clearly_highlight_element.clearly_highlight_first { position: relative; } /* delete buttons */ em.clearly_highlight_element a.clearly_highlight_delete_element {    display: none; cursor: pointer;    padding: 0; margin: 0; line-height: 0;    position: absolute; width: 34px; height: 34px; left: -17px; top: -17px;    background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite.png"); background-repeat: no-repeat; background-position: 0px 0px; } em.clearly_highlight_element a.clearly_highlight_delete_element:hover { background-position: -34px 0px; } /* retina */ @media (min--moz-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {    em.clearly_highlight_element { background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--yellow@2x.png"); }    em.clearly_highlight_element a.clearly_highlight_delete_element { background-image: url("chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/clearly/images/highlight--delete-sprite@2x.png"); background-size: 68px 34px; } } </style></head>
+
+
+
+
+
+
+  <body>
+
+
+
+
+
+    <div  id="container" class="container">
+
+
+    <div  id="rowContainer" class="row" >
+
+
+      <div id="rowHeader" class="row">
+
+        <div class=" col-md-12">
+
+          <div align="center" class="jumbotron">
+
+            <img align="center" class="logo" src="resource/img/logo-sagrilo.png" alt="">
+
+          </div>
+
+        </div>
+
+      </div><!--/row Header-->
+
+
+    
+
+
+
+     <div id="rowMenu" class="row">
+
+      <div class="navbar-tex">
+    
+          <div  id="boxMenu" class="collapse navbar-collapse">
+
+            <ul class="nav nav-pills">
+
+              <li><a class="fontMenu"  href="index.html">Página Inicial</a></li>
+              <li><a class="fontMenu"  href="historia.html">Nossa História</a></li>
+              <li><a class="fontMenu"  href="projetos.html">Projetos</a></li>
+              <li><a class="fontMenu"  href="#">Contato</a></li>
+
+            </ul>
+
+          </div><!-- /.nav-collapse -->
+
+      </div><!-- /.navbar -->
+
+
+     </div><!--/row Menu-->
+
+     
+<!-- 
+<div class="page-header">
+  <h1>Projetos <small>Galeria de imagem</small></h1>
+</div>
+ -->
+
+
+
+    <div  id="boxHistoria"  class="row">
+
+
+      <div class="page-header">
+        <h2 class="fontHistoria" > CONTATO</h2>
+      </div>
+
+    </div>
+
+
+
+
+     <div  id="boxContato"  class="row">
+
+
+
+          
+        <div   id="boxContatoForm"  class="col-md-6" >
+
+
+        <form action="mail.php" method="POST">
+
+          <div class="input-group">
+            <span class="input-group-addon"></span>
+            <input type="text" name="nomeremetente" 
+                   class="form-control" placeholder="Nome">
+          </div>
+
+          <br>
+
+          <div class="input-group">
+            <span class="input-group-addon"></span>
+            <input type="text" class="form-control" name="emailremetente"
+                   placeholder="Email">
+          </div>
+
+          <br>
+
+          <div class="input-group">
+            <span class="input-group-addon"></span>
+            <input type="text" class="form-control" name="telefone" 
+                   placeholder="Telefone">
+          </div>  
+          <br>
+          <button type="submit" class="btn btn-primary btn-large">Enviar</button>        
+
+        </form>
+
+        </div>
+
+
+
+
+        <div  id="boxContatoEndTel" class="noMargin fontGalery col-md-6" >
+
+          <div  class="row noMargin" >
+
+
+            <div  class="col-md-12 noMargin" >
+
+
+              <h3><strong>FÁBRICA Tel:(22) 2621-8881</strong></h3>
+              <h5>Rua Projetada, nº 11 - Bairro Ponta do Ambrósio - São Pedro da Aldeia / RJ. CEP 28.940-000</h5>
+
+
+            </div>            
+
+          </div>
+
+
+          <div  class="row" >
+
+
+            <div  class="col-md-12" >
+
+
+              <h5><strong>Atendimento Rio de Janeiro e Região dos Lagos</strong></h5>
+
+
+            </div>            
+
+          </div>
+
+
+          <div  class="row" >
+
+            <div  class="col-md-1" >
+
+
+              <h5>
+                <strong>
+
+                    Tel:
+
+                </strong>
+              </h5>
+
+
+
+            </div>  
+
+
+
+            <div  class="col-md-11" >
+
+
+              <h5>
+                <strong>
+
+                    (22) 99795-0155 / 99209-6525<br>
+                    (22) 7835-7083 - ID: 55*667*15841<br>
+                    (21) 99719-7722
+
+                </strong>
+              </h5>
+
+
+
+            </div>     
+                    
+
+          </div>     
+
+
+          <div  class="row" >
+
+
+            <div  class="col-md-12" >
+
+
+              <h5><strong>Email: atendimento@sagriloemanskimarcenaria.com.br</strong></h5>
+              <h5><strong><a href="https://www.google.com.br/maps/place/Antiga+Estrada+S%C3%A3o+Pedro+da+Aldeia+-+Cabo+Frio,+73+-+Baixo+Grande/@-22.8603597,-42.0499814,220m/data=!3m1!1e3!4m2!3m1!1s0x97053b7af5a763:0x29606c38861f53f9" >Mapa do local</a></strong></h5>              
+
+            </div>            
+
+          </div>                    
+
+
+        </div>      
+
+     
+
+     </div><!--/row Galery-->
+
+
+
+
+
+
+    </div>
+
+    </div><!--/.container-->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <script src="resource/js/bootstrap.min.js"></script>
+
+
+    <!--
+
+    <script src="resource/js/offcanvas.js"></script>
+    -->
+
+
+<script type="text/javascript" charset="utf-8">
+
+  $(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto({social_tools:""});
+  });
+
+</script>
+
+
+
+
+
+</body><object id="a80bcab8-4808-a182-3b78-08b2d98189bc" width="0" height="0" type="application/gas-events-uni"></object></html>

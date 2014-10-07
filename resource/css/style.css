@@ -1,0 +1,478 @@
+
+
+
+@font-face {
+	font-family: futuraStd;
+	src: url("../fonte/FuturaStd-Condensed.otf");
+}
+
+@font-face {
+	font-family: futuraStdLight;
+	src: url("../fonte/FuturaStd-CondensedLight.otf");
+}
+
+@font-face {
+	font-family: verdana;
+	src: url("../fonte/verdana.ttf");
+}
+
+
+
+
+
+
+.jumbotron {
+
+
+background-image: -webkit-gradient(
+	
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #E6E6E6),
+	color-stop(1, #FEFDFE)
+);
+
+background-image: -o-linear-gradient(bottom, #E6E6E6 0%, #FEFDFE 100%);
+background-image: -moz-linear-gradient(bottom, #E6E6E6 0%, #FEFDFE 100%);
+background-image: -webkit-linear-gradient(bottom, #E6E6E6 0%, #FEFDFE 100%);
+background-image: -ms-linear-gradient(bottom, #E6E6E6 0%, #FEFDFE 100%);
+background-image: linear-gradient(to bottom, #E6E6E6 0%, #FEFDFE 100%);
+
+
+}
+
+html {
+
+
+	font-family: 'futuraStd', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+
+}
+
+
+body{
+
+
+	background-image:url('../img/wood-maple-background-repeat.jpg');
+	background-repeat: repeat-x repeat-y;
+
+}
+
+
+
+#container{
+
+	background-color:transparent;
+
+
+}
+
+.jumbotron{
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 05px;
+
+}
+
+
+#rowContainer {
+
+
+
+	margin-left: 10%;
+	margin-right: 7%;
+	height: 100%;
+	background-color: rgba(45, 30, 20, 0.8);
+	
+
+}
+
+#rowHeader{
+
+
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+
+}
+
+
+
+
+
+
+
+.logo{
+
+
+	width: 380px;
+	height: 180px;
+
+}
+
+
+
+
+#rowMenu{
+
+
+
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+#boxMenu{
+
+
+	margin-left: 25%;
+	margin-right: 20%;
+
+}
+
+.fontMenu{
+
+	font-size: 22px;
+	color:#ffffff;
+	font-family: 'futuraStd', sans-serif;
+
+}
+
+
+
+
+#rowGaleryIndex{
+
+	margin-top: 2%;
+	margin-left: 15px;
+	margin-right: 15px;
+
+}
+
+
+#rowGalery{
+
+
+	margin-top: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+
+
+}
+
+#rowGaleryProjetos{
+
+	margin-top: 5px;
+	margin-left: 3%;
+	margin-right: 3%;
+
+}
+
+
+.projetoHome{
+
+	margin-top: 5px;
+	width: 570px;
+	height: 340px;
+
+
+}
+
+
+.boxSocial{
+
+margin-top: 40px;
+
+}
+
+
+.socialFacebook {
+
+	width: 55px;
+	height: 55px;
+
+}
+
+.socialLinkedin{
+
+	width: 60px;
+	height: 60px;
+
+}
+
+.socialTwitter {
+
+	width: 55px;
+	height: 55px;
+
+}
+
+
+.fontGalery{
+
+	color:#ffffff;
+
+}
+
+
+
+.fontGalery p{
+
+	color:#ffffff;
+	margin: 0px 0px 0px 0px;
+
+
+}
+
+
+.fontIndex1{
+
+	font-family: 'futuraStdLight', sans-serif;
+	font-size: 42px;
+	height: 50px;
+
+}
+
+.fontIndex2{
+
+	font-family: 'futuraStd', sans-serif;
+	font-size: 82px;	
+	height: 80px;
+
+
+}
+
+
+.fontIndex3{
+
+
+	font-family: 'futuraStdLight', sans-serif;
+	font-size: 76px;
+
+
+}
+
+
+.fontHistoria{
+
+
+	font-family: 'futuraStdLight', sans-serif;
+	font-size: 42px;
+
+
+}
+
+.fontHistoria2{
+
+
+	font-family: 'futuraStdLight', sans-serif;
+	font-size: 24px;
+
+
+}
+
+
+.fontHistoriaLight p{
+
+
+	font-family: 'verdana', sans-serif;
+	font-size: 16px;
+
+
+}
+
+.fontProjetos{
+
+
+	font-family: 'verdana', sans-serif;
+	font-size: 16px;
+
+
+}
+
+
+.fontGalery ul li a{
+	color:#ffffff;
+}
+
+
+.fontGalery ul li a:hover{
+	color:#000000;
+}
+
+
+#boxGalery{
+
+	margin-right:30px; 
+
+}
+
+
+
+
+
+#colmGaleryText {
+
+	padding-left: 70px;
+
+	background-color: transparent;
+
+}
+
+
+
+
+
+.iconControl {
+
+
+	width: 40px;
+	height: 60px;
+	margin-top: 100px;
+
+
+}
+
+
+#headHistoria{
+
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+
+
+.page-header {
+	padding-bottom: 5px;
+	margin: 20px 0 20px;
+	border-bottom: 1px solid #eee;
+}
+
+
+
+#boxHistoria{
+
+	margin-left: 5%;
+	margin-right: 5%;
+	color: #ffffff;
+
+}
+
+
+#boxProjetos{
+
+	margin-left: 5%;
+	margin-right: 5%;
+	color: #ffffff;
+
+}
+
+
+#boxContato{
+
+	margin-left: 3%;
+	margin-right: 3%;
+	padding-right: 20px;
+
+
+
+
+}
+
+
+#map_canvas {
+
+        width: 250px;
+        height: 200px;
+        background-color: #CCC;
+}
+
+
+
+#boxContatoForm{
+
+
+	padding-right: 60px;
+	padding-bottom: 20px;
+
+
+}
+
+
+#boxContatoEndTel{
+
+	padding-left: 30px;	
+	margin-top: 0px;
+	top: 0px;
+
+
+}
+
+#bgYellow{
+
+	background-color: yellow;
+}
+
+#bgGreen{
+
+	background-color: green;
+}
+
+.noMargin h3 {
+
+	margin-top:  0px
+}
+
+
+.panel-body{
+
+	padding: 5px;
+
+}
+
+
+.panel {
+	margin-bottom: 0px;
+	background-color: #fff;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+
+/*
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+
+
+	color:#fff;
+	background-color:#d5d6a2
+
+	
+}
+
+*/
+
+.teste{
+
+	width: 100%;
+	height: 100%;
+
+}
+
+
+
+
+.nav>li>a {
+	position: relative;
+	display: block;
+	padding: 7px 15px;
+}
