@@ -8,5 +8,6 @@ $subject = "Atendimento";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 echo '<script>alert("Menssagem enviada com sucesso!");</script>';
-redirect('http://sagriloemanskimarcenaria.com.br/mail.php','refresh');
+header("Location: http://sagriloemanskimarcenaria.com.br/contato.html");
+exit;
 ?>
